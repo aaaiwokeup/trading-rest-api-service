@@ -29,3 +29,24 @@
    ```bash
    python main.py
    ```
+   
+## Redis setup via Docker
+
+1. **Pull Redis Image**
+    ```bash
+    docker pull redis
+    ```
+2. **Run Redis Container**
+    ```bash
+    docker run -d --name redis -p 6379:6379 redis
+    ```
+3. **Check connection**
+    ```bash
+    docker exec -it redis redis-cli
+    ```
+    Write
+    ```bash
+    ping
+    ```
+    Expected response: ```PONG```
+

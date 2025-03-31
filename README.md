@@ -20,7 +20,7 @@ A robust and efficient RESTful API designed to facilitate trading operations, in
 ## Technologies Used
 
 - **Programming Language**: Python
-- **Framework**: FastAPI
+- **Framework**: Flask
 - **Database**: PostgreSQL
 - **Message Broker**: RabbitMQ
 - **Caching**: Redis
